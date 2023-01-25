@@ -1,0 +1,77 @@
+.picter-style{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+.all-image{
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+    border-radius: 100px;
+}
+.large-image {
+    width: 300px;
+    border-radius: 8px;
+}
+.My-picture-center{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.font-btn-random {
+    color: white;
+    /*สีของตัวอักษรข้อความใน*/
+    font-size: medium;
+    /*ขนาดของตัวอักษรเราจะกำหนดเองก็ได้หรือจะเลือกระบุไปเลยก็ได้*/
+    border: 2px solid #78D9B6;
+    /*ระบุรูปแบบความกว้าง สี เส้นขอบ*/
+    background-color: #78D9B6;
+    /*สีพื้นหลัง*/
+    border: none;
+    padding: 15px 32px;
+    /*การขยับกรอบเข้ามาภายในวัตถุ*/
+    text-align: center;
+    display: inline-block;
+    /*เรียงกันแนวนอนและมีพื้นที่ด้านใน ตามที่เรากำหนด*/
+    font-size: 16px;
+    margin: 4px 5px;
+    /*แบบนี้จะเข้าใน-ขยับออกขวาไป 5px*/
+    cursor: pointer;
+    /*เป็นคำสั่งที่เอาไว้ใช้เปลี่ยนเวลาขยับเมาท์มาที่ button*/
+    margin-bottom: 50px;
+}
+.font-btn-stop {
+    color: white;
+    font-size: medium;
+    border: 2px solid #D37C7C;
+    background-color: #D37C7C;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 5px;
+    /*แบบนี้จะเข้าใน-ขยับออกซ้ายไป 5px*/
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.font-btn-stop:hover {
+    border: 1px solid #777;
+}
+
+.font-btn-random:hover {
+    border: 1px solid #777;
+}
+
+
+/*ไล่ระดับสี*/
+body {
+    height: 200px;
+    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0), rgb(73, 73, 73));
+    background: -o-linear-gradient(right, rgba(255, 0, 0, 0), rgb(85, 85, 85));
+    background: -moz-linear-gradient(right, rgba(255, 0, 0, 0), rgb(53, 53, 53));
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(0, 0, 0));
+    
+}
